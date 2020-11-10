@@ -1,0 +1,89 @@
+/* main text color: #757575 */
+/* text secondary color: #212121 */
+/* accent color: #2196F3 */
+/* background tertialy color: #2F303A */
+/* background secondary color: #F5F4FA */
+/* white: #FFFFFF */
+/* email and tel white: rgba(255, 255, 255, 0.6) */
+
+
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent: #2196F3;
+    --white: #FFFFFF;
+    --secondary-white: rgba(255, 255, 255, 0.6);
+    --black: #000000;
+    --secondary-bg-color: #F5F4FA;
+    --tertialy-bg-color: #2F303A ;
+
+}
+
+body{
+    background-color: #FFFFFF;
+    color: var(--primary-text-color)
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header*/
+.logo-first-part{
+    color: var(--accent);
+}
+.logo-second-part{
+    color: var(--black);
+}
+.site-nav .link{
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent);
+}
+.contacts .link{
+    color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent);
+}
+
+/*Main*/
+.section-title, .team-member{
+    color: var(--title-text-color);
+}
+.hero{
+    background-color: var(--tertialy-bg-color);
+}
+.hero-title{
+    color: var(--white);
+}
+.hero a{
+    color: var(--white);
+    background-color: var(--accent);
+}
+.our-team{
+    background-color: var(--secondary-bg-color);
+}
+
+/* Footer*/
+.footer{
+    background-color: var(--tertialy-bg-color);
+}
+.footer .logo-second-part{
+    color: var(--white);
+}
+.phys-address{
+    color: var(--white);
+}
+.email, .phone{
+    color: var(--secondary-white);
+}
+.footer .link:hover,
+.footer .link:focus{
+    color: var(--accent);
+}
