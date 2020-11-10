@@ -44,6 +44,9 @@ a{
 .site-nav .link:focus{
     color: var(--accent);
 }
+.site-nav .link.current{
+    color: var(--accent);
+}
 .contacts .link{
     color: var(--primary-text-color);
 }
@@ -62,7 +65,7 @@ a{
 .hero-title{
     color: var(--white);
 }
-.hero a{
+.button.primary{
     color: var(--white);
     background-color: var(--accent);
 }
@@ -86,4 +89,13 @@ a{
 .footer .link:hover,
 .footer .link:focus{
     color: var(--accent);
+}
+
+/*Portfolio*/
+.project-examples h3{
+    color: var(--title-text-color);
+}
+.button.secondary{
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
 }
