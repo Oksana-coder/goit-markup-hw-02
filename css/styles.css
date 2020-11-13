@@ -129,6 +129,9 @@ a{
 .footer .logo-second-part{
     color: var(--white);
 }
+.address{
+    font-style: normal;
+}
 .phys-address{
     color: var(--white);
     font-size: 14px;
